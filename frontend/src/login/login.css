@@ -1,0 +1,59 @@
+.login {
+    background-color: #032568;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login p {
+    height: 1px;
+    font-size: 13px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #41454d;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 310px;
+}
+
+form h3 {
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+label {
+    color: #fff;
+}
+
+form a {
+    text-decoration: none;
+    color: #fff;
+}
+
+form a:hover {
+    color: #0f0f0f;
+    background-color: #fff;
+}
+
+form button {
+    text-transform: capitalize;
+}
+
+input[type=submit] {
+    margin-right: 2rem;
+}
+.login .alert{
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 5;
+}

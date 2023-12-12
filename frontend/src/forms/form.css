@@ -1,0 +1,82 @@
+.addform,
+.editform,
+.modal-fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    min-height: 100vh;
+    width: 100%;
+    padding: 3rem;
+    width: 100%;
+}
+
+form p {
+    height: 1px;
+    font-size: 13px;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+    line-height: 1.5;
+    padding: 15px 15px 30px;
+    border-radius: 3px;
+    text-transform: none;
+}
+
+.form-overlay {
+    width: 400px;
+}
+
+.form-overlay input[type=submit] {
+    margin-right: 0.3rem;
+}
+
+.popup-msg {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 350px;
+}
+
+.popup-msg button {
+    margin: 0 0.1rem;
+}
+
+.modal-dialog {
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0.8rem;
+}
+
+.modal-body h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.9rem;
+}
+
+.modal-header h1 {
+    text-align: center;
+    width: 100%;
+    text-decoration: underline;
+    margin: 0.3rem;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer button {
+    text-transform: capitalize;
+    margin-left: 0.5rem;
+}
+
+.modal-title h3 {
+    text-align: center;
+}
